@@ -6,23 +6,35 @@ class Wektor2D
     public:
         Wektor2D()
         {
-            cout << "Wektor domyœlny" << endl;
-            X = 1;
-            Y = 2;
+            
+            X = 0;
+            Y = 0;
             cout << "x=" << X << " y=" << Y << endl;
         }
         Wektor2D(double XX, double YY)
         {
 
-            cout << "XDD" << endl;
+           
             X = XX;
             Y = YY;
             cout << "x=" << X << " y=" << Y << endl;
         }
-        void setX(double X) { X = X; }
-        double getX() const { return X; }
-        void setY(double Y) { Y = Y; }
-        double getY() const { return Y; }
+        void setX(double X) {
+            X = X; 
+            cout << "x=" << X << endl;
+        }
+        double getX() const { 
+            return X; 
+            cout << "x=" << X << endl;
+        }
+        void setY(double Y) { 
+            Y = Y; 
+            cout << "y=" << Y << endl;
+        }
+        double getY() const { 
+            return Y;
+            cout << "y=" << Y << endl;
+        }
 
        // Operator dodawania wektorów
         Wektor2D operator+(const Wektor2D& other) const
