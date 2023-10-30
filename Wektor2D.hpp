@@ -19,16 +19,16 @@ class Wektor2D
             Y = YY;
             cout << "x=" << X << " y=" << Y << endl;
         }
-        void setX(double X) {
-            X = X; 
+        void setX(double nowyX) {
+            X = nowyX; 
             cout << "x=" << X << endl;
         }
         double getX() const { 
             return X; 
             cout << "x=" << X << endl;
         }
-        void setY(double Y) { 
-            Y = Y; 
+        void setY(double nowyY) { 
+            Y = nowyY; 
             cout << "y=" << Y << endl;
         }
         double getY() const { 
