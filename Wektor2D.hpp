@@ -14,7 +14,7 @@ class Wektor2D
         Wektor2D(double XX, double YY)
         {
 
-            cout << "Wektor parametryczny" << endl;
+            cout << "XDD" << endl;
             X = XX;
             Y = YY;
             cout << "x=" << X << " y=" << Y << endl;
