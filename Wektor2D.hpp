@@ -7,8 +7,8 @@ class Wektor2D
         Wektor2D()
         {
             cout << "Wektor domyœlny" << endl;
-            X = 0;
-            Y = 0;
+            X = 1;
+            Y = 2;
             cout << "x=" << X << " y=" << Y << endl;
         }
         Wektor2D(double XX, double YY)
