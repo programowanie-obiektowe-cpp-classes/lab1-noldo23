@@ -20,9 +20,9 @@ class Wektor2D
             cout << "x=" << X << " y=" << Y << endl;
         }
         void setX(double X) { X = X; }
-        double getX() { return X; }
+        double getX() const { return X; }
         void setY(double Y) { Y = Y; }
-        double getY() { return Y; }
+        double getY() const { return Y; }
 
        // Operator dodawania wektorów
         Wektor2D operator+(const Wektor2D& other) const
